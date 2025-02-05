@@ -3,7 +3,7 @@ pragma solidity ^0.8.0;
 
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract ErcAssignmentToken is ERC20 {
+contract MyToken is ERC20 {
     address private owner;
 
     // Mapping to store transaction data
