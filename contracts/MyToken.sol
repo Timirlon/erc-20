@@ -15,10 +15,18 @@ contract MyToken is ERC20 {
     }
     Transaction[] private transactions;
 
+    constructor(uint256 initialSupply) ERC20("ErcAssToken", "EATKN") {
+        _mint(msg.sender, initialSupply * 10 ** decimals());
+        owner = msg.sender;
+    }
+
+    /* Outdated
     constructor() ERC20("ErcAssToken", "EATKN") {
         _mint(msg.sender, 2000 * 10 ** decimals()); // Initial supply of 2000 tokens
         owner = msg.sender;
     }
+    */
+    
 
     // Function to retrieve transaction information
     function getTransaction(uint256 index) public view returns (
