@@ -8,7 +8,15 @@ The ErcAssignmentToken project is an implementation of an ERC20-compliant token 
 + getLatestTransactionSender() - retrieve the sender of the latest transaction
 + getLatestTransactionReceiver() - retrieve the receiver of the latest transaction
 + transfer() - override transfer function to log transactions
-## Demo Screenshots
+## Screenshots
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/1.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/2.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/3.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/4.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/5.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/6.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/7.png)
+![Unavailable](https://github.com/Timirlon/erc-20/blob/part-two/demo/3.png)
 
 ## Development Team
 + Temirlan Turgimbayev

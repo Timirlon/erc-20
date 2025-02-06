@@ -1,16 +1,24 @@
 {
-  "name": "hardhat-javascript-starter",
-  "scripts": {
-    "build": "npx thirdweb@latest detect",
-    "deploy": "npx thirdweb@latest deploy",
-    "publish": "npx thirdweb@latest publish"
+  "name": "erc-20-part-two",
+  "version": "1.0.0",
+  "description": "The ErcAssignmentToken project is an implementation of an ERC20-compliant token using the Solidity programming language. Built on the Ethereum blockchain, the project extends the basic ERC20 functionality by introducing a transaction logging system. This allows users and developers to track transaction details such as sender, receiver, amount, and timestamp. ## Functionality ### The projects functionality is based on the following functions: + getTransaction() - retrieve transaction information + getLatestTransactionTimestamp() - get the block timestamp of the latest transaction + getLatestTransactionSender() - retrieve the sender of the latest transaction + getLatestTransactionReceiver() - retrieve the receiver of the latest transaction + transfer() - override transfer function to log transactions ## Demo Screenshots",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "devDependencies": {
-    "@matterlabs/hardhat-zksync-solc": "^0.3.17",
-    "hardhat": "^2.13.0"
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.3.8",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.22.18"
   },
   "dependencies": {
-    "@thirdweb-dev/contracts": "^3.8.0",
-    "zksync-web3": "^0.14.3"
+    "@openzeppelin/contracts": "^5.2.0"
   }
 }
